@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zomato_redesign/components/locationselector.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -8,9 +9,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    var height = MediaQuery.of(context).size.height;
     var width = MediaQuery.of(context).size.width;
-    var location = ['7999 E Mott Ave,', ' Fowler, CA 93625'];
     return Scaffold(
       body: SafeArea(
         child: Column(children: [
@@ -29,7 +28,15 @@ class _HomeState extends State<Home> {
                                 icon: Icon(Icons.menu_rounded),
                                 iconSize: 30,
                                 onPressed: () => {}),
-                            Text("Tomato",style: ,),
+                            Text(
+                              "Tomato",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 20,
+                                  color: Colors.redAccent
+                                  // fontFamily:
+                                  ),
+                            ),
                             IconButton(
                                 icon: Icon(Icons.account_circle_rounded),
                                 iconSize: 30,
@@ -47,7 +54,7 @@ class _HomeState extends State<Home> {
                 decoration: InputDecoration(
                     fillColor: Colors.grey[300],
                     filled: true,
-                    hintText: "Search for food",
+                    hintText: "What are you craving?",
                     enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.transparent),
                         borderRadius: BorderRadius.all(Radius.circular(50))),
@@ -58,7 +65,8 @@ class _HomeState extends State<Home> {
                       Icons.search,
                       color: Colors.grey,
                     ))),
-          )
+          ),
+          LocationSelector(screenwidth: width)
         ]),
       ),
     );
