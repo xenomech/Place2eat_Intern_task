@@ -13,131 +13,13 @@ class _ListGenratorState extends State<ListGenrator> {
   _ListGenratorState({this.screenwidth});
   @override
   Widget build(BuildContext context) {
-    Map<String, List> data = {
-      'id': [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      'name': [
-        "hotel 1",
-        "hotel 2",
-        "hotel 3",
-        "hotel 4",
-        "hotel 5",
-        "hotel 6",
-        "hotel 7",
-        "hotel 8",
-        "hotel 9"
-      ],
-      'images': [
-        'lib/assets/images/1.webp',
-        'lib/assets/images/2.webp',
-        'lib/assets/images/3.webp',
-        'lib/assets/images/1.jpg',
-        'lib/assets/images/1.jpg',
-        'lib/assets/images/1.jpg',
-        'lib/assets/images/1.jpg',
-        'lib/assets/images/1.jpg',
-        'lib/assets/images/1.jpg',
-      ],
-      "decs": [
-        "lorem imposum.......1",
-        "lorem imposum.......2",
-        "lorem imposum.......3",
-        "lorem imposum.......4",
-        "lorem imposum.......5",
-        "lorem imposum.......6",
-        "lorem imposum.......7",
-        "lorem imposum.......8",
-        "lorem imposum.......9"
-      ],
-      "items": [
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
-          "item 1",
-          "item 2",
-          "item 3",
-          "item 4",
-          "item 5",
-          "item 6",
-          "item 7",
-          "item 8",
-          "item 9",
-        ],
-        [
+    const info = [
+      {
+        "id": "1",
+        "name": "Restaurant 1",
+        "images": "https://images.freekaamaal.com/post_images/1606817930.jpg",
+        "decs": "lorem imposm ...",
+        "items": [
           "item 1",
           "item 2",
           "item 3",
@@ -148,34 +30,149 @@ class _ListGenratorState extends State<ListGenrator> {
           "item 8",
           "item 9",
         ]
-      ]
-    };
-    List<Data> DATA = [];
-    for (var u in data.values) {
-      // Data d = Data(
-      //   id: u.,
-      //   items: u["items"],
-      //   name: u["name"],
-      //   desc: u["decs"],
-      //   images: u["images"],
-      // );
-      // DATA.add(d)
-      print(u);
-    }
+      },
+      {
+        "id": "2",
+        "name": "Restaurant 2",
+        "images":
+            "https://img.etimg.com/thumb/msid-75176755,width-640,resizemode-4,imgsize-612672/effect-of-coronavirus-on-food.jpg",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      },
+      {
+        "id": "3",
+        "name": "Restaurant 3",
+        "images":
+            "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjl8fHxlbnwwfHx8&w=1000&q=80",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Restaurant 4",
+        "images":
+            "https://c.ndtvimg.com/2020-04/dih4ifhg_pasta_625x300_22_April_20.jpg",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Restaurant 5",
+        "images":
+            "https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/09/spaghetti-meatballs.jpg?fit=1200%2C879&ssl=1",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Restaurant 6",
+        "images":
+            "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/fast_food_smarts_rmq/650x350_fast_food_smarts_rmq.jpg?resize=692px:*",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Restaurant 7",
+        "images":
+            "https://images.everydayhealth.com/images/healthy-foods-that-are-great-sources-of-iron-03-1440x810.jpg",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      },
+      {
+        "id": "8",
+        "name": "Restaurant 8",
+        "images":
+            "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/07/dosa-recipe-500x500.jpg",
+        "decs": "lorem imposm ...",
+        "items": [
+          "item 1",
+          "item 2",
+          "item 3",
+          "item 4",
+          "item 5",
+          "item 6",
+          "item 7",
+          "item 8",
+          "item 9",
+        ]
+      }
+    ];
     return Expanded(
       child: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding: const EdgeInsets.all(20.0),
         child: Container(
             child: ListView.builder(
-                itemCount: data["id"].length,
+                itemCount: info.length,
                 itemBuilder: (context, index) {
                   return Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: ListTile(
-                        title: Text(data["name"][index]),
-                        onTap: () => {},
+                        title: Text(info[index]["name"]),
+                        onTap: () => {print(info[index])},
                         leading: CircleAvatar(
                           radius: 30.0,
+                          backgroundImage: NetworkImage(info[index]["images"]),
                         )),
                   );
                 })
