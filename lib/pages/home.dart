@@ -1,4 +1,6 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:zomato_redesign/components/listgenerator.dart';
 import 'package:zomato_redesign/components/locationselector.dart';
 
 class Home extends StatefulWidget {
@@ -11,6 +13,21 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
+      // backgroundColor: Colors.white,
+      bottomNavigationBar: CurvedNavigationBar(
+        color: Colors.red[900],
+        height: 60,
+        backgroundColor: Colors.white,
+        animationCurve: Curves.easeInOut,
+        index: 1,
+        animationDuration: Duration(milliseconds: 400),
+        items: [
+          Icon(Icons.account_balance_wallet_outlined,
+              color: Colors.white, size: 30),
+          Icon(Icons.home, color: Colors.white, size: 30),
+          Icon(Icons.login_sharp, color: Colors.white, size: 30),
+        ],
+      ),
       body: SafeArea(
         child: Column(children: [
           Row(
@@ -66,7 +83,8 @@ class _HomeState extends State<Home> {
                       color: Colors.grey,
                     ))),
           ),
-          LocationSelector(screenwidth: width)
+          LocationSelector(screenwidth: width),
+          ListGenrator(screenwidth: width)
         ]),
       ),
     );
