@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zomato_redesign/models/data.dart';
+import 'package:zomato_redesign/pages/detailspage.dart';
 
 class ListGenrator extends StatefulWidget {
   var screenwidth;
@@ -18,7 +18,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "id": "1",
         "name": "Restaurant 1",
         "images": "https://images.freekaamaal.com/post_images/1606817930.jpg",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -36,7 +37,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 2",
         "images":
             "https://img.etimg.com/thumb/msid-75176755,width-640,resizemode-4,imgsize-612672/effect-of-coronavirus-on-food.jpg",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -54,7 +56,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 3",
         "images":
             "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mjl8fHxlbnwwfHx8&w=1000&q=80",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -72,7 +75,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 4",
         "images":
             "https://c.ndtvimg.com/2020-04/dih4ifhg_pasta_625x300_22_April_20.jpg",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -90,7 +94,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 5",
         "images":
             "https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/09/spaghetti-meatballs.jpg?fit=1200%2C879&ssl=1",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -108,7 +113,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 6",
         "images":
             "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/fast_food_smarts_rmq/650x350_fast_food_smarts_rmq.jpg?resize=692px:*",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -126,7 +132,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 7",
         "images":
             "https://images.everydayhealth.com/images/healthy-foods-that-are-great-sources-of-iron-03-1440x810.jpg",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -144,7 +151,8 @@ class _ListGenratorState extends State<ListGenrator> {
         "name": "Restaurant 8",
         "images":
             "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/07/dosa-recipe-500x500.jpg",
-        "decs": "lorem imposm ...",
+        "decs":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus lectus, feugiat sit amet nulla vitae, imperdiet pulvinar nunc. Maecenas laoreet ex ac lacus efficitur, ut tincidunt ante eleifend. Etiam luctus tortor in turpis aliquam, non feugiat magna feugiat. Sed lacinia felis nec commodo posuere. In eleifend justo eu sapien accumsan, ut tempus tellus semper. Cras fermentum, erat sed condimentum rhoncus, quam nisi imperdiet velit, quis suscipit lorem erat ut ex. Duis fringilla erat ut velit viverra, sed fringilla nisl aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
         "items": [
           "item 1",
           "item 2",
@@ -169,10 +177,23 @@ class _ListGenratorState extends State<ListGenrator> {
                     padding: const EdgeInsets.all(8.0),
                     child: ListTile(
                         title: Text(info[index]["name"]),
-                        onTap: () => {print(info[index])},
-                        leading: CircleAvatar(
-                          radius: 30.0,
-                          backgroundImage: NetworkImage(info[index]["images"]),
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => DetailsPage(
+                                      passedInfo: info[index],
+                                      screenwidth: screenwidth,
+                                    )),
+                          );
+                        },
+                        leading: Hero(
+                          tag: info[index]["images"],
+                          child: CircleAvatar(
+                            radius: 30.0,
+                            backgroundImage:
+                                NetworkImage(info[index]["images"]),
+                          ),
                         )),
                   );
                 })
